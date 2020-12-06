@@ -23,4 +23,4 @@ class Employee {
         return "Employee";
       };
     };
-module.exports = employee
+module.exports = employees

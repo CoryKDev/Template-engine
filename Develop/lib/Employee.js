@@ -16,13 +16,10 @@ class Employee {
     };
     //returns the email
    getEmail() {
-    };
-    //returns the email
-    getEmail() {
         return this.email;
       };
       //returns the role or title
-     getRole() {
+   getRole() {
         return "Employee";
       };
     };

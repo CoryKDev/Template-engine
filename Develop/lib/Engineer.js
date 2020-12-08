@@ -18,4 +18,4 @@ getRole() {
 };
 };
 
-module.exports = Engineer
+module.exports = Engineer;

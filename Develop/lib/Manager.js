@@ -2,7 +2,7 @@
 const Employee = require("./Employee")
 
 class Manager extends Employee {
-    constructor(name, id, email, github) {
+    constructor(name, id, email, officeNumber) {
         super(name, id, email);
 
         this.officeNumber = officeNumber;
@@ -12,7 +12,11 @@ class Manager extends Employee {
         return "Manager"
     };
 
+    getOfficeNumber(){
+        return this.officeNumber;
+    }
+
 
 };
 
-module.exports = Manager
+module.exports = Manager;
